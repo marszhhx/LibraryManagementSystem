@@ -1,0 +1,21 @@
+@model List<LibraryManagement.ViewModels.AuthorViewModel>
+
+<h2>Authors</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var author in Model)
+    {
+        <tr>
+            <td>@author.AuthorId</td>
+            <td>@author.AuthorName</td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,21 @@
+@model List<LibraryManagement.ViewModels.LibraryBranchViewModel>
+
+<h2>Library Branches</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Branch Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var branch in Model)
+    {
+        <tr>
+            <td>@branch.BranchId</td>
+            <td>@branch.BranchName</td>
+        </tr>
+    }
+    </tbody>
+</table>
