@@ -7,6 +7,7 @@
     <tr>
         <th>Id</th>
         <th>Name</th>
+        <th>Details</th>
     </tr>
     </thead>
     <tbody>
@@ -15,6 +16,7 @@
         <tr>
             <td>@author.AuthorId</td>
             <td>@author.AuthorName</td>
+            <td><a asp-action="Details" asp-route-id="@author.AuthorId">Details</a></td>
         </tr>
     }
     </tbody>

@@ -7,6 +7,7 @@
     <tr>
         <th>Id</th>
         <th>Branch Name</th>
+        <th>Branch Details</th>
     </tr>
     </thead>
     <tbody>
@@ -15,6 +16,8 @@
         <tr>
             <td>@branch.BranchId</td>
             <td>@branch.BranchName</td>
+            <td><a asp-action="Details" asp-route-id="@branch.BranchId">Details</a></td>
+
         </tr>
     }
     </tbody>

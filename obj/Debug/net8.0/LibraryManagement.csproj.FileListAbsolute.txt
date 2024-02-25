@@ -155,3 +155,4 @@
 /Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/obj/Debug/net8.0/LibraryManagement.pdb
 /Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/obj/Debug/net8.0/LibraryManagement.genruntimeconfig.cache
 /Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/obj/Debug/net8.0/ref/LibraryManagement.dll
+/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/obj/Debug/net8.0/LibraryManagement.sourcelink.json
