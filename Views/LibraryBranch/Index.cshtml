@@ -2,12 +2,14 @@
 
 <h2>Library Branches</h2>
 
+<a asp-action="Create" class="btn btn-success">Add New Branch</a>
+
 <table class="table">
     <thead>
     <tr>
         <th>Id</th>
         <th>Branch Name</th>
-        <th>Branch Details</th>
+        <th>Actions</th>
     </tr>
     </thead>
     <tbody>
@@ -16,8 +18,12 @@
         <tr>
             <td>@branch.BranchId</td>
             <td>@branch.BranchName</td>
-            <td><a asp-action="Details" asp-route-id="@branch.BranchId">Details</a></td>
-
+            <td>
+                <a asp-action="Edit" asp-route-id="@branch.BranchId" class="btn btn-primary">Update</a>
+                <form asp-action="Delete" asp-route-id="@branch.BranchId" method="post" style="display: inline;" onsubmit="return confirm('Are you sure you want to delete this?');">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </td>
         </tr>
     }
     </tbody>

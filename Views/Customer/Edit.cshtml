@@ -1,0 +1,23 @@
+@model LibraryManagement.ViewModels.CustomerViewModel
+
+<h1>
+    Customer Details and Update
+</h1>
+<br/>
+<div>
+    <h2>Customer Information</h2>
+    <p>Customer ID: @Model.CustomerId</p>
+    <p>Customer Name: @Model.CustomerName</p>
+</div>
+<br>
+<div>
+    <h2>Update Customer Information</h2>
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="CustomerId" />
+        <div class="form-group">
+            <label asp-for="CustomerName">Enter New Customer Name</label>
+            <input asp-for="CustomerName" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+</div>

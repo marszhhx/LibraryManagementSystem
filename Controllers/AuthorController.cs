@@ -7,13 +7,14 @@ namespace LibraryManagement.Controllers
 {
     public class AuthorController : Controller
     {
-        private readonly AppDbContext _dbContext; // Assuming AppDbContext is your database context class
+        private readonly AppDbContext _dbContext;
 
         public AuthorController(AppDbContext dbContext)
         {
             _dbContext = dbContext;
         }
-        
+
+        // GET: Authors
         public IActionResult Index()
         {
             var authorViewModels = _dbContext.Authors
@@ -25,29 +26,85 @@ namespace LibraryManagement.Controllers
 
             return View(authorViewModels);
         }
-        
-        public IActionResult Details(int id)
-        {
-            // // Simulated data access
-            // Author author = new Author
-            // {
-            //     AuthorId = 1,
-            //     Name = "John Doe"
-            // };
-            var author = _dbContext.Authors.FirstOrDefault(a => a.AuthorId == id); // Fetch the author from the database
 
+        // GET: Author/Edit/5
+        public IActionResult Edit(int id)
+        {
+            var author = _dbContext.Authors.Find(id);
             if (author == null)
             {
-                return NotFound(); // If the author with the given id does not exist, return a Not Found response
+                return NotFound();
             }
 
-            AuthorViewModel viewModel = new AuthorViewModel
+            var viewModel = new AuthorViewModel
             {
                 AuthorId = author.AuthorId,
                 AuthorName = author.Name
             };
 
-            return View(viewModel); // Pass the AuthorViewModel to the view
+            return View(viewModel);
+        }
+
+        // GET: Author/Create
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Author/Create
+        [HttpPost]
+        public IActionResult Create(AuthorViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var author = new Author
+                {
+                    Name = model.AuthorName
+                };
+
+                _dbContext.Authors.Add(author);
+                _dbContext.SaveChanges();
+
+                return RedirectToAction(nameof(Index));
+            }
+            return View(model);
+        }
+        
+        // POST: Author/Edit/5
+        [HttpPost]
+        public IActionResult Edit(AuthorViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var author = _dbContext.Authors.Find(model.AuthorId);
+                if (author == null)
+                {
+                    return NotFound();
+                }
+
+                author.Name = model.AuthorName;
+                _dbContext.SaveChanges();
+
+                return RedirectToAction(nameof(Index));
+            }
+            return View(model);
+        }
+
+        // POST: Author/Delete/5
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            var author = _dbContext.Authors.FirstOrDefault(a => a.AuthorId == id);
+            if (author == null)
+            {
+                return NotFound();
+            }
+
+            _dbContext.Authors.Remove(author);
+            _dbContext.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

@@ -1,0 +1,21 @@
+@model LibraryManagement.ViewModels.AuthorViewModel
+
+<h1>Author Details and Update</h1>
+<br/>
+<div>
+    <h2>Author Information</h2>
+    <p>Author ID: @Model.AuthorId</p>
+    <p>Author Name: @Model.AuthorName</p>
+</div>
+<br>
+<div>
+    <h2>Update Author Information</h2>
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="AuthorId" />
+        <div class="form-group">
+            <label asp-for="AuthorName">Enter New Author Name</label>
+            <input asp-for="AuthorName" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+</div>

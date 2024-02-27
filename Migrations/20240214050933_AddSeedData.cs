@@ -17,7 +17,7 @@ namespace LibraryManagement.Migrations
                 migrationBuilder.InsertData(
                     table: "Authors",
                     columns: new[] { "Name" },
-                    values: new object[] { $"Author Name {i}" }
+                    values: new object[] { $"Seed Author Name {i}" }
                 );
             }
 
@@ -28,7 +28,7 @@ namespace LibraryManagement.Migrations
                 migrationBuilder.InsertData(
                     table: "LibraryBranches",
                     columns: new[] { "BranchName" },
-                    values: new object[] { $"Branch Name {i}" }
+                    values: new object[] { $"Seed Branch Name {i}" }
                 );
             }
 
@@ -40,7 +40,7 @@ namespace LibraryManagement.Migrations
                 migrationBuilder.InsertData(
                     table: "Customers",
                     columns: new[] { "Name" },
-                    values: new object[] { $"Customer Name {i}" }
+                    values: new object[] { $"Seed Customer Name {i}" }
                 );
             }
             
@@ -51,7 +51,7 @@ namespace LibraryManagement.Migrations
                 migrationBuilder.InsertData(
                     table: "Books",
                     columns: new[] { "Title", "AuthorId", "LibraryBranchId" },
-                    values: new object[] { $"Book Title {i}", i, i }
+                    values: new object[] { $"Seed Book Title {i}", i, i }
                 );
             }
         }

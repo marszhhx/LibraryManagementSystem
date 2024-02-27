@@ -31,5 +31,5 @@ After setting up the database, you can run the application with the following co
 ```shell
 dotnet run
 ```
-Navigate to http://localhost:5088 or https://localhost:5088 (as applicable) in your web browser to view and interact with the application.
+Navigate to https://localhost:5088 (as applicable) in your web browser to view and interact with the application.
 
