@@ -9,87 +9,87 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibraryManagement
 build_property.RootNamespace = LibraryManagement
-build_property.ProjectDir = /Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/
+build_property.ProjectDir = /Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement
+build_property.MSBuildProjectDirectory = /Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Author/Create.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Author/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Author/Edit.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Author/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Author/Index.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Author/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Book/Create.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vay9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Book/Edit.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Book/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vay9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Book/Index.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vay9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Customer/Create.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Customer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Customer/Edit.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Customer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Customer/Index.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Home/Index.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Home/Privacy.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/LibraryBranch/Create.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/LibraryBranch/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyeUJyYW5jaC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/LibraryBranch/Edit.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/LibraryBranch/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyeUJyYW5jaC9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/LibraryBranch/Index.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/LibraryBranch/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyeUJyYW5jaC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Shared/Error.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/_ViewImports.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/_ViewStart.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/Views/Shared/_Layout.cshtml]
+[/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ntohq707r3

@@ -2532,11 +2532,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/LibraryManagement.csproj",
+      "projectUniqueName": "/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/LibraryManagement.csproj",
       "projectName": "LibraryManagement",
-      "projectPath": "/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/LibraryManagement.csproj",
+      "projectPath": "/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/LibraryManagement.csproj",
       "packagesPath": "/Users/Mars/.nuget/packages/",
-      "outputPath": "/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/obj/",
+      "outputPath": "/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Mars/.nuget/NuGet/NuGet.Config"

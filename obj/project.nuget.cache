@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/InXaYEmXQymg3CCtY0NlFz5s39BvvzhP2tLZWuHZq4VKklLsDhSkNv+B9EmluYbaBL/D5De12cuVOKdZgG4fA==",
+  "dgSpecHash": "mPLKm5nQJRJOEouMgCdpmqmr4nSI32luDvRyqP8MizXbLvN+FQhu/kOA5T+pNLbtwSQUzwosIJE0OKHPzhGYYw==",
   "success": true,
-  "projectFilePath": "/Users/Mars/Coding-Projects/fdu/adv_application_programming/class1/LibraryManagement/LibraryManagement.csproj",
+  "projectFilePath": "/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagement/LibraryManagement.csproj",
   "expectedPackageFiles": [
     "/Users/Mars/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/Mars/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
