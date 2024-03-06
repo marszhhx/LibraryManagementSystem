@@ -16,6 +16,7 @@ namespace LibraryManagement.Controllers
         
         public IActionResult Index()
         {
+            
             // Query to fetch all books with their related author and library branch names
             var bookList = _dbContext.Books
                 .ToList() // Fetch all books first to avoid querying inside a loop
